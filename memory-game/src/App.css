@@ -14,6 +14,7 @@
 }
 
 .App-header {
+  height: 80px;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +23,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header h2 {
+  color:#666666;
 }
 
 .App-link {
@@ -35,4 +40,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Cards {
+  width: 650px;
+  height: 200px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
